@@ -31,3 +31,4 @@ int main()
 }
 
 // a = (num(num+1))/2		to get the starting value
+
