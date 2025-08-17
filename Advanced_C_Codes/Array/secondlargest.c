@@ -3,11 +3,11 @@
 int main()
 {
     // int arr[7] = {-10, -4, -200, -80, -19, -5, -12};
-    int arr[7] = {1, 2, 3, 4, 5, 6, 7};
+    int arr[3] = { 7,3,4};
     int max = INT_MIN;
     int smax = INT_MIN;
 
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i <3; i++)
     {
         if (max < arr[i])
         {
