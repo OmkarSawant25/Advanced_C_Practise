@@ -3,7 +3,7 @@
 
 int main()
 {
-    int arr[7] = {4,1, 2, 1, 2};
+    int arr[7] = {4, 1, 2, 1, 2};
 
     for (int i = 0; i < 5; i++)
     {
