@@ -10,9 +10,9 @@ void fun(int a[])
 
 int main()
 {
-	int arr[2] = {9,25};
-	printf("%d %d\n",arr[0],arr[1]);
+    int arr[2] = {9, 25};
+    printf("%d %d\n", arr[0], arr[1]);
     fun(arr);
-    printf("%d %d\n",arr[0],arr[1]);
-	return 0;
+    printf("%d %d\n", arr[0], arr[1]);
+    return 0;
 }

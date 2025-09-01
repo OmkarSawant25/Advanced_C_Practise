@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int arr[50], size, pos, value;
 
     // Input size of array
@@ -9,7 +10,8 @@ int main() {
 
     // Input array elements
     printf("Enter %d elements:\n", size);
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++)
+    {
         scanf("%d", &arr[i]);
     }
 
@@ -20,7 +22,8 @@ int main() {
     scanf("%d", &value);
 
     // Shift elements to right
-    for (int i = size; i >= pos; i--) {
+    for (int i = size; i >= pos; i--)
+    {
         arr[i] = arr[i - 1];
     }
 
@@ -30,7 +33,8 @@ int main() {
 
     // Print new array
     printf("Array after insertion:\n");
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++)
+    {
         printf("%d ", arr[i]);
     }
     printf("\n");
