@@ -2,25 +2,24 @@
 
 int main()
 {
-    int num,count;
+    int num, count;
     printf("Enter the number : ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
-    for(int i = 2; i <= num; i++)
+    for (int i = 2; i <= num; i++)
     {
         count = 0;
-        for(int j= 1; j <= num; j++)
+        for (int j = 1; j <= num; j++)
         {
-            if(i%j == 0)
+            if (i % j == 0)
             {
-                count ++;
+                count++;
             }
         }
-        if(count == 2)
+        if (count == 2)
         {
-            printf("%d ",i);
+            printf("%d ", i);
         }
-        
     }
-    return 0;    
+    return 0;
 }

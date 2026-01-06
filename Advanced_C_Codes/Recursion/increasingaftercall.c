@@ -1,10 +1,10 @@
 #include <stdio.h>
 void inc(int n)
 {
-	if (n == -1)			//base case
+	if (n == -1) // base case
 		return;
-	inc(n - 1);			//Recursion call
-	printf("%d\n", n);	//code
+	inc(n - 1);		   // Recursion call
+	printf("%d\n", n); // code
 	return;
 }
 

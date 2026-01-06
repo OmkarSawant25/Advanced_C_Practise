@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 void dec(int n)
 {
-	if(n == 0)	return;
+	if (n == 0)
+		return;
 	printf("%d\n", n);
-	dec(n-1);
+	dec(n - 1);
 	return;
 }
 

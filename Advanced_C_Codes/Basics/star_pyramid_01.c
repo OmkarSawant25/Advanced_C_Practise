@@ -4,16 +4,16 @@ int main()
 {
 	int n;
 	printf("Enter a number : ");
-	scanf("%d",&n);
+	scanf("%d", &n);
 	int nst = 1;
 
-	for(int i = 1 ; i <= n ; i++)
+	for (int i = 1; i <= n; i++)
 	{
-		for(int j = 1 ; j <= n-i ; j++)
+		for (int j = 1; j <= n - i; j++)
 		{
 			printf(" ");
 		}
-		for(int k = 1 ; k <= nst; k++)
+		for (int k = 1; k <= nst; k++)
 		{
 			printf("*");
 		}
@@ -21,4 +21,3 @@ int main()
 		printf("\n");
 	}
 }
-

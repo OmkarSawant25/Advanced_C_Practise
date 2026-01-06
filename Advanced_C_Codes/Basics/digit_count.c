@@ -4,16 +4,13 @@ int main()
 {
 	int n;
 	printf("Enter the num :");
-	scanf("%d",&n);
+	scanf("%d", &n);
 	int count = 0;
 	int y = n;
-	while(n != 0)
+	while (n != 0)
 	{
-		n = n/10;
-		count ++;
+		n = n / 10;
+		count++;
 	}
-	printf("Count of %d is %d\n",y,count);
+	printf("Count of %d is %d\n", y, count);
 }
-
-
-

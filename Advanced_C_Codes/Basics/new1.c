@@ -9,7 +9,6 @@ int main()
 
     int a = 10;
     int c = a << 2;
-    printf("Value of a is %d\n",a);
-    printf("Value of c is %d\n",c);
-    
+    printf("Value of a is %d\n", a);
+    printf("Value of c is %d\n", c);
 }
